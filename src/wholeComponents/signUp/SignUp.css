@@ -2,7 +2,7 @@
     font-size:3.6vmax;
     text-align: center;
     text-transform:uppercase;
-    font-family:'Roboto', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: oblique;
     text-decoration: underline;
     letter-spacing: 0.1vw;
@@ -23,7 +23,7 @@
     width:90%;
     /* padding:0 0 0 0; */
     color: black;
-    font-family:'Roboto', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 0.15vw;
     font-style: oblique;
     /* animation: form-fade-in 1.5s ease-in-out;  */
@@ -49,14 +49,14 @@
     text-transform: uppercase;
     font-size: 2vmax;
     cursor: pointer;
-    background:whitesmoke;
-    color:blue;
+    background: rgb(114, 2, 2);
+    color:rgb(243, 201, 201);
     transition: all 0.1s ease-in-out;
 }
    
 .signUpSubmit:hover{
-     background:whitesmoke;
-     color:blue;
+     background: black;
+     color:darkred;
 }
 
 .signUpAnchorsDiv{
@@ -84,7 +84,7 @@
 }
 .signUpAnchors:hover{
     box-shadow: 0.1vw 0.1vw 0.5vw black,-0.1vw -0.1vw 0.5vw black;
-    color:whitesmoke;
+    color:darkred;
 }
 
 

@@ -9,10 +9,10 @@
     grid-template-columns: auto;
     border-radius: 10px;
     font-size: 1.5vmax;
-    font-family:'Roboto', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-style: inherit;
     overflow: hidden;
-    background:rgb(115, 112, 112);
+    background:rgb(243, 201, 201);
 }
 .inputDiv>button{
      font-size: 1.5vmax;
@@ -27,7 +27,7 @@ input{
     background: transparent;
     border-radius: 10px;
     font-size: 1.5vmax;
-    font-family:'Roboto', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-style: inherit;
 }
 input:focus{
@@ -39,8 +39,8 @@ label{
 }
 span{
     text-align: center;
-    background:rgb(74, 242, 183);
-    color:rgb(9, 12, 11);
+    background:rgb(243, 201, 201);
+    color:red;
     padding:1.5%;
     font-size: 1.5vmax;
     letter-spacing: 1px;

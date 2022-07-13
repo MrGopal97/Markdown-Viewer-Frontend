@@ -1,9 +1,9 @@
 
 .loginForm{
     width:90%;
-    color:whitesmoke;
-    background: rgb(66, 65, 65);
-    font-family:'Roboto', sans-serif;
+    color:black;
+    background: darkred;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: oblique;
     letter-spacing: 1px;
     display:grid;
@@ -32,21 +32,21 @@
     letter-spacing: 0.06vw;
     font-size: 1.8vmax;
     cursor: pointer;
-    background:rgb(66, 65, 65);
+    background: rgb(114, 2, 2);
     color:rgb(243, 201, 201);
     transition: all 0.1s ease-in-out;
 }
 .loginSubmit:hover{
-    background:rgb(66, 65, 65);
-    color:rgb(243, 201, 201);
+    background: black;
+    color:darkred;
 }
 
 .loginError{
     border:2px solid black;
-    background:rgb(66, 65, 65);
-    color:rgb(243, 201, 201);
+    background: red;
+    color:white;
     padding:2%;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 1.2vmax;
     display: block;
     text-transform: capitalize;
